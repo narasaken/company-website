@@ -1,0 +1,109 @@
+body {
+    color: black;
+    font-family: 'Lexend Mega', sans-serif;
+    text-align: center;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-around;
+    margin: 0 35%;
+}
+
+.nav p {
+    text-decoration: underline;
+    cursor: pointer;
+    font-size: 22px;
+    display: inline-block;
+    padding: 10px 10px;
+}
+
+.banner {
+    background-image: url('./images/mario-von-rotz-sgaA4_eyL3s-unsplash.jpg');
+    padding-top: 2rem;
+    height: 400px;
+    display: flex;
+    
+}
+
+.banner .banner-text {
+    margin: auto;
+    background-color: white;
+    width: 100%;
+}
+
+.squares {
+    min-height: 500px;
+    margin: auto;
+    padding-top: 4rem;
+}
+
+.content h2, h4 {
+    margin-top: 4rem;
+    padding: 10px;
+}
+
+.about {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.us {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.us img {
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    padding: 10px;
+    height: auto;
+}
+
+.us span {
+    padding: 5px;
+    min-width: 240px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.team-box h2 {
+    margin: 2rem;
+    padding-top: 2rem;
+    
+}
+
+.team {
+    background-image: url("./images/prithiviraj-a-RwFvbO620Q4-unsplash.jpg");
+    padding-top: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.teammate {
+    padding: 10px;
+    color: white;
+    flex-basis: 280px;
+}
+
+.teammate img {
+    margin-top: 4rem;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    height: auto;
+}
+
+.contacts .copyright {
+    padding-top: 20px;
+}
